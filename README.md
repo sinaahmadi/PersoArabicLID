@@ -4,27 +4,27 @@
 
 The [Perso-Arabic scripts](https://en.wikipedia.org/wiki/Persian_alphabet) are a family of scripts that are widely adopted and used by various linguistic communities around the globe. Identifying various languages using such scripts is crucial to language technologies and challenging in low-resource setups. As such, this paper sheds light on the challenges of detecting languages using Perso-Arabic scripts, especially in bilingual communities where “unconventional” writing is practiced. To address this, we use a set of supervised techniques to classify sentences into their languages. Building on these, we also propose a hierarchical model that targets clusters of languages that are more often confused by the classifiers. 
 
-This repository provides datasets and models for language identification with a focus on languages that use a Perso-Arabic script. The selected 19 languages are the followings:
+This repository provides datasets and models for language identification with a focus on languages that use a Perso-Arabic script. The selected 19 languages are categorized based on the countries as follows:
 
-* Brahui (`brh`)
-* Torwali (`trw`)
-* Balochi (`bal`)
-* Kashmiri (`kas`)
-* Gorani (Hawrami, `hac`)
-* Northern Kurdish (Kurmanji, `kmr-arab`)
-* Central Kurdish (Sorani, `ckb`)
-* Southern Kurdish (`sdh`)
-* Arabic (`arb`)
-* Persian (`fas`)
-* Gilaki (`glk`)
-* Urdu (`urd`)
-* Sindhi (`snd-arab`)
-* Azeri (`azb-arab`)
-* Uyghur (`uig`)
-* Pashto (`pas`)
-* Saraiki (`skr`)
-* Mazanderani (`mzn`)
-* Punjabi (`pnb`)
+* Brahui / براہوئی (`brh`)
+* Torwali / توروالی (`trw`)
+* Balochi / بلۏچی (`bal`)
+* Kashmiri / كٲشُر (`kas`)
+* Gorani / گۆرانی (Hawrami, `hac`)
+* Northern Kurdish / کورمانجی (Kurmanji, `kmr-arab`)
+* Central Kurdish / سۆرانی (Sorani, `ckb`)
+* Southern Kurdish / کوردیی خوارین (`sdh`)
+* Arabic / اَلْعَرَبِيَّةُ (`arb`)
+* Persian / فارسی (`fas`)
+* Gilaki / گیلکی (`glk`)
+* Mazanderani / مازرونی (`mzn`)
+* Urdu / اردو (`urd`)
+* Sindhi / سنڌي (`snd-arab`)
+* Azeri Turkish / آذربایجان دیلی (`azb-arab`)
+* Uyghur / ئۇيغۇر تىلى (`uig`)
+* Pashto / پښتو (`pas`)
+* Saraiki / سرائیکی (`skr`)
+* Punjabi / پنجابی (`pnb`)
 
 ## Datasets
 The [dataset] folder is structured as follows:
