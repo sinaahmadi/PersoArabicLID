@@ -75,15 +75,15 @@ Here is an example in Python:
 Please consider citing [this paper](https://sinaahmadi.github.io/docs/articles/ahmadi2023pali), if you use any part of the data or the models ([`bib` file](https://sinaahmadi.github.io/bibliography/ahmadi2023pali.txt)):
 
 ```
-	@inproceedings{ahmadi2023pali,
-	    title = "{PALI}: A Language Identification Benchmark for {Perso-Arabic} Scripts",
-	    author = "Ahmadi, Sina and Agarwal, Milind and Anastasopoulos, Antonios",
-	    booktitle = "Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
-	    month = may,
-	    year = "2023",
-	    address = "Dubrovnik, Croatia",
-	    publisher = "The 17th Conference of the European Chapter of the Association for Computational Linguistics"
-	}
+@inproceedings{ahmadi2023pali,
+    title = "{PALI}: A Language Identification Benchmark for {Perso-Arabic} Scripts",
+    author = "Ahmadi, Sina and Agarwal, Milind and Anastasopoulos, Antonios",
+    booktitle = "Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "The 17th Conference of the European Chapter of the Association for Computational Linguistics"
+}
 ```
 
 ## License 
