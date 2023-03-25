@@ -1,0 +1,213 @@
+[
+	{
+		"source_language": "Arabic",
+		"source_language_code": "arb",
+		"target_language": "",
+		"target_language_code": "",
+		"corpus": "corpora/Arabic_arb.txt",
+		"script_map": ""
+	},
+	{
+		"source_language": "Persian",
+		"source_language_code": "fas",
+		"target_language": "",
+		"target_language_code": "",
+		"corpus": "corpora/Persian_fas.txt",
+		"script_map": ""
+	},
+	{
+		"source_language": "Urdu",
+		"source_language_code": "urd",
+		"target_language": "",
+		"target_language_code": "",
+		"corpus": "corpora/Urdu_urd.txt",
+		"script_map": ""
+	},
+	{
+		"source_language": "Uyghur",
+		"source_language_code": "uig",
+		"target_language": "",
+		"target_language_code": "",
+		"corpus": "corpora/Uyghur_ug-wiki-20230120.txt",
+		"script_map": ""
+	},	
+	{
+		"source_language": "Torwali",
+		"source_language_code": "trw",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Torwali_trw.txt",
+		"script_map": "scripts/Torwali-Urdu.tsv"
+	},
+	{
+		"source_language": "Punjabi",
+		"source_language_code": "pnb",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Punjabi_pnb-wiki-20230120.txt",
+		"script_map": "scripts/Punjabi-Urdu.tsv"
+	},
+	{
+		"source_language": "Balochi",
+		"source_language_code": "bal",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Balochi_bal.txt",
+		"script_map": "scripts/Balochi-Urdu.tsv"
+	},
+	{
+		"source_language": "Balochi",
+		"source_language_code": "bal",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Balochi_bal.txt",
+		"script_map": "scripts/Balochi-Persian.tsv"
+	},
+	{
+		"source_language": "Pashto",
+		"source_language_code": "pus",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Pashto_ps-wiki-20230120.txt",
+		"script_map": "scripts/Pashto-Urdu.tsv"
+	},
+	{
+		"source_language": "Pashto",
+		"source_language_code": "pus",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Pashto_ps-wiki-20230120.txt",
+		"script_map": "scripts/Pashto-Persian.tsv"
+	},
+	{
+		"source_language": "Brahui",
+		"source_language_code": "brh",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Brahui_brh.txt",
+		"script_map": "scripts/Brahui-Urdu.tsv"
+	},
+	{
+		"source_language": "Saraiki",
+		"source_language_code": "skr",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Saraiki_skr-wiki-20230120.txt",
+		"script_map": "scripts/Saraiki-Urdu.tsv"
+	},
+	{
+		"source_language": "Kashmiri",
+		"source_language_code": "kas",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Kashmiri_ks-wiki-20221201.txt",
+		"script_map": "scripts/Kashmiri-Urdu.tsv"
+	},
+	{
+		"source_language": "Sindhi",
+		"source_language_code": "snd",
+		"target_language": "Urdu",
+		"target_language_code": "urd",
+		"corpus": "corpora/Sindhi_sd-wiki-20221201.txt",
+		"script_map": "scripts/Sindhi-Urdu.tsv"
+	},
+	{
+		"source_language": "SouthernKurdish",
+		"source_language_code": "sdh",
+		"target_language": "Arabic",
+		"target_language_code": "arb",
+		"corpus": "corpora/SouthernKurdish_sdh.txt",
+		"script_map": "scripts/Kurdish-Arabic.tsv"
+
+	},
+	{
+		"source_language": "SouthernKurdish",
+		"source_language_code": "sdh",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/SouthernKurdish_sdh.txt",
+		"script_map": "scripts/Kurdish-Persian.tsv"
+
+	},
+	{
+		"source_language": "Sorani",
+		"source_language_code": "ckb",
+		"target_language": "Arabic",
+		"target_language_code": "arb",
+		"corpus": "corpora/Sorani_ckb-Pewan.txt",
+		"script_map": "scripts/Kurdish-Arabic.tsv"
+
+	},
+	{
+		"source_language": "Kurmanji",
+		"source_language_code": "kmr",
+		"target_language": "Arabic",
+		"target_language_code": "arb",
+		"corpus": "corpora/Kurmanji_kmr.txt",
+		"script_map": "scripts/Kurdish-Arabic.tsv"
+	},
+	{
+		"source_language": "Gorani",
+		"source_language_code": "hac",
+		"target_language": "Arabic",
+		"target_language_code": "arb",
+		"corpus": "corpora/Gorani_hac.txt",
+		"script_map": "scripts/Gorani-Arabic.tsv"
+	},
+	{
+		"source_language": "Sorani",
+		"source_language_code": "ckb",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Sorani_ckb-Pewan.txt",
+		"script_map": "scripts/Kurdish-Persian.tsv"
+	},
+	{
+		"source_language": "Kurmanji",
+		"source_language_code": "kmr",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Kurmanji_kmr.txt",
+		"script_map": "scripts/Kurdish-Persian.tsv"
+	},
+	{
+		"source_language": "Gorani",
+		"source_language_code": "hac",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Gorani_hac.txt",
+		"script_map": "scripts/Gorani-Persian.tsv"
+	},
+	{
+		"source_language": "Gorani",
+		"source_language_code": "hac",
+		"target_language": "Sorani",
+		"target_language_code": "ckb",
+		"corpus": "corpora/Gorani_hac.txt",
+		"script_map": "scripts/Gorani-Kurdish.tsv"
+	},
+	{
+		"source_language": "AzeriTurkish",
+		"source_language_code": "azb",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Azeri_azb-wiki-20221201.txt",
+		"script_map": "scripts/AzeriTurkish-Persian.tsv"
+	},
+	{
+		"source_language": "Gilaki",
+		"source_language_code": "glk",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Gilaki_glk-wiki-20221201.txt",
+		"script_map": "scripts/Gilaki-Persian.tsv"
+	},
+	{
+		"source_language": "Mazanderani",
+		"source_language_code": "mzn",
+		"target_language": "Persian",
+		"target_language_code": "fas",
+		"corpus": "corpora/Mazanderani_mzn-wiki-20221201.txt",
+		"script_map": "scripts/Mazanderani-Persian.tsv"
+	}
+]
