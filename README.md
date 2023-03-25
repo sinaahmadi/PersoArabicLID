@@ -1,8 +1,6 @@
-# Language Identification for Perso-Arabic scripts
+# Language Identification for Perso-Arabic Scripts
 
-<p align="center" width="100%">
-    <img width="33%" src="https://raw.githubusercontent.com/sinaahmadi/PersoArabicLID/main/PersoArabicGraphemes.png"> 
-</p>
+![Perso-Arabic scripts word cloud](PersoArabicGraphemes.png)
 
 The [Perso-Arabic scripts](https://en.wikipedia.org/wiki/Persian_alphabet) are a family of scripts that are widely adopted and used by various linguistic communities around the globe. Identifying various languages using such scripts is crucial to language technologies and challenging in low-resource setups. As such, this paper sheds light on the challenges of detecting languages using Perso-Arabic scripts, especially in bilingual communities where “unconventional” writing is practiced. To address this, we use a set of supervised techniques to classify sentences into their languages. Building on these, we also propose a hierarchical model that targets clusters of languages that are more often confused by the classifiers. 
 
@@ -67,7 +65,7 @@ Here is an example in Python:
 
 ```
 
-**We recommend [the merged model  (LID_model_merged.ftz)](LID_model_merged.ftz).**
+**We recommend [the merged model  (LID_model_merged.ftz)](models/LID_model_merged.ftz).**
 
 ## Utilities
 * [stats.sh](stats.sh) counts number of instances per languages in the various datasets. It can be used with `clean`, `merged` or `noisy` as arguments. The latter should also take the noise level as an additional argument as in `stats.sh noisy 20` or `stats.sh noisy all`.
