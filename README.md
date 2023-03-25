@@ -4,7 +4,7 @@
 
 The [Perso-Arabic scripts](https://en.wikipedia.org/wiki/Persian_alphabet) are a family of scripts that are widely adopted and used by various linguistic communities around the globe. Identifying various languages using such scripts is crucial to language technologies and challenging in low-resource setups. As such, this paper sheds light on the challenges of detecting languages using Perso-Arabic scripts, especially in bilingual communities where “unconventional” writing is practiced. To address this, we use a set of supervised techniques to classify sentences into their languages. Building on these, we also propose a hierarchical model that targets clusters of languages that are more often confused by the classifiers. 
 
-This repository provides datasets and models for language identification with a focus on languages that use a Perso-Arabic script. The selected 19 languages are categorized based on the countries as follows:
+This repository provides datasets and models for language identification with a focus on languages that use a Perso-Arabic script. The selected 19 languages with their ISO-639-3 codes are provided as follows:
 
 * Brahui / براہوئی (`brh`)
 * Torwali / توروالی (`trw`)
@@ -51,9 +51,9 @@ It should be noted that we upsample data for some of the languages for which the
 | others   | > 10,000       | No                           | 2000             |
 
 ## Models
-The [models] folder provides compressed models that are trained on the train sets. These models are trained on all the selected models.
+The [models](models) folder provides compressed models that are trained on the train sets. These models are trained on all the selected datasets.
 
-You can load the trained [models](models) using [fasttext](https://fasttext.cc) in Python or on command-line. For more information, pease consult [https://fasttext.cc/docs/en/python-module.html](https://fasttext.cc/docs/en/python-module.html).
+You can load the trained [models](models) using [fastText](https://fasttext.cc) in Python or on command-line. For more information, please consult [https://fasttext.cc/docs/en/python-module.html](https://fasttext.cc/docs/en/python-module.html).
 
 Here is an example in Python:
 
@@ -65,7 +65,27 @@ Here is an example in Python:
 
 ```
 
-**We recommend [the merged model  (LID_model_merged.ftz)](models/LID_model_merged.ftz).**
+* `fa`: Farsi
+* `kas`: Kashmiri
+* `sd`: Sindhi
+* `azb`: Azeri
+* `ckb`: Central Kurdish
+* `bal`: Balochi
+* `mzn`: Mazanderani
+* `hac`: Gorani
+* `skr`: Saraiki
+* `ps`: Pashto
+* `ar`: Arabic
+* `trw`: Torwali
+* `glk`: Gilaki
+* `sdh`: Sindhi
+* `ud`: Urdu
+* `ug`: Uyghur
+* `pa`: Punjabi
+* `ku`: Northern Kurdish
+* `brh`: Brahui
+
+The predicted language code is preceded by `__lable__`. **We recommend using [the merged model  (LID_model_merged.ftz)](models/LID_model_merged.ftz).**
 
 ## Utilities
 * [stats.sh](stats.sh) counts number of instances per languages in the various datasets. It can be used with `clean`, `merged` or `noisy` as arguments. The latter should also take the noise level as an additional argument as in `stats.sh noisy 20` or `stats.sh noisy all`.
