@@ -92,7 +92,7 @@ The predicted language code is preceded by `__lable__`. **We recommend using [th
 * [merger.sh](merger.sh) creates the merged datasets which performs equally well in noisy and clean setups.
 
 ## Cite this project
-Please consider citing [this paper](https://sinaahmadi.github.io/docs/articles/ahmadi2023pali), if you use any part of the data or the models ([`bib` file](https://sinaahmadi.github.io/bibliography/ahmadi2023pali.txt)):
+Please consider citing [this paper](https://sinaahmadi.github.io/docs/articles/ahmadi2023pali.pdf), if you use any part of the data or the models ([`bib` file](https://sinaahmadi.github.io/bibliography/ahmadi2023pali.txt)):
 
 ```
 @inproceedings{ahmadi2023pali,
