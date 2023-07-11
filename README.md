@@ -26,8 +26,12 @@ This repository provides datasets and models for language identification with a 
 * Saraiki / سرائیکی (`skr`)
 * Punjabi / پنجابی (`pnb`)
 
+## Corpora
+
+The [corpora](corpora) folder contains corpora for the target languages.
+
 ## Datasets
-The [dataset] folder is structured as follows:
+The [datasets](datasets) folder is structured as follows:
 
 1. **Clean**: A dataset of clean data (0% of noise) is provided in [datasets/0](datasets/0). This includes all the selected languages along with Urdu, Persian, Arabic and Uyghur. The dataset contains 10,000 instances per language.
 1. **Noisy**: Based on the script mappings in [scripts](scripts), a certain level of noise is injected in the clean text from the corpora of the source language. This is carried out in [create_datasets.py](create_datasets.py). The following datasets containing 10,000 instances per language are provided based on the indicated level of noise from 20% to 100% as:
